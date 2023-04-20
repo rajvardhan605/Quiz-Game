@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">Quiz Game</h1>
+    </header>
+
+    <div class="questions">
+        <h2 id="q1">Who has most runs in IPL ?</h2>
+    </div>
+
+    <div class="container">
+        <div class="options">
+            <div class="line">
+                <div class="opt">
+                    <button id="opt1" class="option" onclick="wrong1()">Rohit Sharma</button>
+                </div>
+                <div class="opt">
+                    <button id="opt2" class="option" onclick="correct()">Virat Kohli</button>
+                </div>
+            </div>
+            <div class="line">
+                <div class="opt">
+                    <button id="opt3" class="option" onclick="wrong2()">David Warner</button>
+                </div>
+                <div class="opt">
+                    <button id="opt4" class="option" onclick="wrong3()">Shikhar Dhawan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
